@@ -1,0 +1,11 @@
+{
+open Stdarg
+module Lib = One_plugin.Lib
+
+let w () = Feedback.msg_info (Pp.str ""); Lib.stuff ()
+
+}
+
+VERNAC COMMAND EXTEND Two CLASSIFIED AS SIDEFF
+| [ "TWO" int(x) ] -> { w () }
+END

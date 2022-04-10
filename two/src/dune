@@ -1,0 +1,4 @@
+(coq.theory
+ (name Two)
+ (package coq-two)
+ (libraries coq-two.plugin))

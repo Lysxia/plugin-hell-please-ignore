@@ -1,0 +1,8 @@
+-I plugin
+plugin/two.mlg
+plugin/two_plugin.mlpack
+-Q src Two
+src/Two.v
+
+# -I _build/default/plugin
+# -Q _build/default/src Two

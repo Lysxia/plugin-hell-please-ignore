@@ -1,0 +1,7 @@
+{
+open Stdarg
+}
+
+VERNAC COMMAND EXTEND One CLASSIFIED AS SIDEFF
+| [ "ONE" int(x) ] -> { Lib.stuff () }
+END

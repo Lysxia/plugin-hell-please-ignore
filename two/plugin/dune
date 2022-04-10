@@ -1,0 +1,7 @@
+(library
+ (name two_plugin)
+ (public_name coq-two.plugin)
+ (flags :standard -rectypes -warn-error -3 -w -8-27+40)
+ (libraries coq-core.plugins.extraction coq-one.plugin))
+
+(coq.pp (modules two))

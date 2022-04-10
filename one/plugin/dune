@@ -1,0 +1,7 @@
+(library
+ (name one_plugin)
+ (public_name coq-one.plugin)
+ (flags :standard -rectypes -warn-error -3 -w -8-27+40)
+ (libraries coq-core.plugins.extraction))
+
+(coq.pp (modules one))
